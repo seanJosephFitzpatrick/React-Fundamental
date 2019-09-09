@@ -1,8 +1,8 @@
 import React from "react";
 
 function MainContent() {
-  const MainText = "Main content";
-  return <main>{MainText}</main>;
+  const mainText = "Main content";
+  return <main>{`${mainText}`}</main>;
 }
 
 export default MainContent;
