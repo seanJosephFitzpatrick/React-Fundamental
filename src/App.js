@@ -1,12 +1,15 @@
 import React from "react";
-import { Header, MainContent, Footer } from "../Imports/imports";
+import { Card } from "../Imports/imports";
 
 function App() {
   return (
     <div>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Card
+        name="Mr. Whiskerson"
+        imgUrl="http://placekitten.com/300/200"
+        phone="(212) 555-1234"
+        email="mr.wiskerson@catnap.meow"
+      />
     </div>
   );
 }
