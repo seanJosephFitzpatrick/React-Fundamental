@@ -1,10 +1,12 @@
 import React from "react";
-import { FunctionalComponent } from "../Imports/imports";
+import { Header, MainContent, Footer } from "../Imports/imports";
 
 function App() {
   return (
     <div>
-      <FunctionalComponent />
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
