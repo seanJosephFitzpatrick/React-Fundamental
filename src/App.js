@@ -1,14 +1,10 @@
 import React from "react";
-import {
-  HeaderClassComponent,
-  GreetingClassComponent
-} from "../Imports/imports";
+import { State } from "../Imports/imports";
 
 function App() {
   return (
     <div>
-      <HeaderClassComponent username="John Doe" />
-      <GreetingClassComponent />
+      <State />
     </div>
   );
 }

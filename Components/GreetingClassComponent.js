@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class GreetingClassComponent extends Component {
+class Greeting extends Component {
   render() {
     const date = new Date();
     const hours = date.getHours();
@@ -18,4 +18,4 @@ class GreetingClassComponent extends Component {
   }
 }
 
-export default GreetingClassComponent;
+export default Greeting;

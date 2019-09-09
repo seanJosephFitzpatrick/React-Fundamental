@@ -9,6 +9,7 @@ import Product from "../Components/Product";
 import productData from "../Data/productData";
 import HeaderClassComponent from "../Components/HeaderClassComponent";
 import GreetingClassComponent from "../Components/GreetingClassComponent";
+import State from "../Components/State";
 
 export {
   App,
@@ -21,5 +22,6 @@ export {
   Product,
   productData,
   HeaderClassComponent,
-  GreetingClassComponent
+  GreetingClassComponent,
+  State
 };
