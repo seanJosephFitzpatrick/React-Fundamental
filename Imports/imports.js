@@ -13,6 +13,8 @@ import State from "../Components/State";
 import HandleEvent from "../Components/HandleEvent";
 import ChangingState from "../Components/ChangingState";
 import FetchingDataApi from "../Components/FetchingDataApi";
+import FormComponent from "../Components/FormComponent";
+import FormContainer from "../Components/FormContainer";
 
 export {
   App,
@@ -29,5 +31,7 @@ export {
   State,
   HandleEvent,
   ChangingState,
-  FetchingDataApi
+  FetchingDataApi,
+  FormComponent,
+  FormContainer
 };

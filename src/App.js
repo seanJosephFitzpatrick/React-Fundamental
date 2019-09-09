@@ -1,10 +1,10 @@
 import React from "react";
-import { FetchingDataApi } from "../Imports/imports";
+import { FormComponent } from "../Imports/imports";
 
 function App() {
   return (
     <div>
-      <FetchingDataApi />
+      <FormComponent />
     </div>
   );
 }
