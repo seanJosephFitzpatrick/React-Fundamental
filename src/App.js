@@ -5,10 +5,12 @@ function App() {
   return (
     <div>
       <Card
-        name="Mr. Whiskerson"
-        imgUrl="http://placekitten.com/300/200"
-        phone="(212) 555-1234"
-        email="mr.wiskerson@catnap.meow"
+        contact={{
+          name: "Mr. Whiskerson",
+          imgUrl: "http://placekitten.com/300/200",
+          phone: "(212) 555-1234",
+          email: "mr.wiskerson@catnap.meow"
+        }}
       />
     </div>
   );
