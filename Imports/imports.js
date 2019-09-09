@@ -12,6 +12,7 @@ import GreetingClassComponent from "../Components/GreetingClassComponent";
 import State from "../Components/State";
 import HandleEvent from "../Components/HandleEvent";
 import ChangingState from "../Components/ChangingState";
+import FetchingDataApi from "../Components/FetchingDataApi";
 
 export {
   App,
@@ -27,5 +28,6 @@ export {
   GreetingClassComponent,
   State,
   HandleEvent,
-  ChangingState
+  ChangingState,
+  FetchingDataApi
 };

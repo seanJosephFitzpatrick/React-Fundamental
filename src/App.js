@@ -1,10 +1,10 @@
 import React from "react";
-import { ChangingState } from "../Imports/imports";
+import { FetchingDataApi } from "../Imports/imports";
 
 function App() {
   return (
     <div>
-      <ChangingState />
+      <FetchingDataApi />
     </div>
   );
 }
