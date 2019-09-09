@@ -8,19 +8,19 @@ class ChangingState extends Component {
     };
   }
 
-  handleClick = event => {
+  handleClick() {
     this.setState(preveState => {
       return {
         count: preveState.count + 1
       };
     });
-  };
+  }
 
   render() {
     return (
       <div>
         <h1>{this.state.count}</h1>
-        <button onClick={this.handleClick}>Change</button>
+        <button onClick={this.handleClick.bind(this)}>Change</button>
       </div>
     );
   }
