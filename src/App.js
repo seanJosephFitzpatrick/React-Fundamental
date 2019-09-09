@@ -1,9 +1,16 @@
 import React from "react";
-import { Product, productData } from "../Imports/imports";
+import {
+  HeaderClassComponent,
+  GreetingClassComponent
+} from "../Imports/imports";
 
 function App() {
-  const productComponent = productData.map(item => <Product product={item} />);
-  return <div>{productComponent}</div>;
+  return (
+    <div>
+      <HeaderClassComponent username="John Doe" />
+      <GreetingClassComponent />
+    </div>
+  );
 }
 
 export default App;

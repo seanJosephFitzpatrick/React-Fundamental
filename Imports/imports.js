@@ -7,6 +7,8 @@ import Footer from "../Components/Footer";
 import Card from "../Components/Card";
 import Product from "../Components/Product";
 import productData from "../Data/productData";
+import HeaderClassComponent from "../Components/HeaderClassComponent";
+import GreetingClassComponent from "../Components/GreetingClassComponent";
 
 export {
   App,
@@ -17,5 +19,7 @@ export {
   Footer,
   Card,
   Product,
-  productData
+  productData,
+  HeaderClassComponent,
+  GreetingClassComponent
 };
