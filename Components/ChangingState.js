@@ -6,16 +6,15 @@ class ChangingState extends Component {
     this.state = {
       count: 0
     };
-    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+  handleClick = event => {
     this.setState(preveState => {
       return {
         count: preveState.count + 1
       };
     });
-  }
+  };
 
   render() {
     return (
