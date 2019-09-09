@@ -1,7 +1,8 @@
 import React from "react";
 
 function Header() {
-  return <header className="navbar">Header</header>;
+  const headerText = "Header";
+  return <header className="navbar">{headerText}</header>;
 }
 
 export default Header;
