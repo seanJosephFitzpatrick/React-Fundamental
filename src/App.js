@@ -1,10 +1,10 @@
 import React from "react";
-import { HandleEvent } from "../Imports/imports";
+import { ChangingState } from "../Imports/imports";
 
 function App() {
   return (
     <div>
-      <HandleEvent />
+      <ChangingState />
     </div>
   );
 }

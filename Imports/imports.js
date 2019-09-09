@@ -11,6 +11,7 @@ import HeaderClassComponent from "../Components/HeaderClassComponent";
 import GreetingClassComponent from "../Components/GreetingClassComponent";
 import State from "../Components/State";
 import HandleEvent from "../Components/HandleEvent";
+import ChangingState from "../Components/ChangingState";
 
 export {
   App,
@@ -25,5 +26,6 @@ export {
   HeaderClassComponent,
   GreetingClassComponent,
   State,
-  HandleEvent
+  HandleEvent,
+  ChangingState
 };
